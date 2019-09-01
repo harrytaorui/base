@@ -1,0 +1,28 @@
+PHP Fatal error:  Uncaught RuntimeException: Failed to listen on "tcp://0.0.0.0:8080": Address already in use in /Applications/XAMPP/xamppfiles/htdocs/infs3202project/websocket/vendor/react/socket/src/TcpServer.php:164
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/infs3202project/websocket/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct('tcp://0.0.0.0:8...', Object(React\EventLoop\StreamSelectLoop), Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/infs3202project/websocket/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct('0.0.0.0:8080', Object(React\EventLoop\StreamSelectLoop))
+#2 /Applications/XAMPP/xamppfiles/htdocs/infs3202project/websocket/ChatServer.php(91): Ratchet\Server\IoServer::factory(Object(Ratchet\Http\HttpServer), 8080)
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/infs3202project/websocket/vendor/react/socket/src/TcpServer.php on line 164
+PHP Fatal error:  Uncaught RuntimeException: Failed to listen on "tcp://0.0.0.0:8080": Address already in use in /Applications/XAMPP/xamppfiles/htdocs/infs3202project/websocket/vendor/react/socket/src/TcpServer.php:164
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/infs3202project/websocket/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct('tcp://0.0.0.0:8...', Object(React\EventLoop\StreamSelectLoop), Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/infs3202project/websocket/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct('0.0.0.0:8080', Object(React\EventLoop\StreamSelectLoop))
+#2 /Applications/XAMPP/xamppfiles/htdocs/infs3202project/websocket/ChatServer.php(91): Ratchet\Server\IoServer::factory(Object(Ratchet\Http\HttpServer), 8080)
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/infs3202project/websocket/vendor/react/socket/src/TcpServer.php on line 164
+PHP Fatal error:  Uncaught RuntimeException: Failed to listen on "tcp://0.0.0.0:8080": Address already in use in /Applications/XAMPP/xamppfiles/htdocs/infs3202project/websocket/vendor/react/socket/src/TcpServer.php:164
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/infs3202project/websocket/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct('tcp://0.0.0.0:8...', Object(React\EventLoop\StreamSelectLoop), Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/infs3202project/websocket/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct('0.0.0.0:8080', Object(React\EventLoop\StreamSelectLoop))
+#2 /Applications/XAMPP/xamppfiles/htdocs/infs3202project/websocket/ChatServer.php(91): Ratchet\Server\IoServer::factory(Object(Ratchet\Http\HttpServer), 8080)
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/infs3202project/websocket/vendor/react/socket/src/TcpServer.php on line 164
+PHP Fatal error:  Uncaught RuntimeException: Failed to listen on "tcp://0.0.0.0:8080": Address already in use in /Applications/XAMPP/xamppfiles/htdocs/infs3202project/websocket/vendor/react/socket/src/TcpServer.php:164
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/infs3202project/websocket/vendor/react/socket/src/Server.php(36): React\Socket\TcpServer->__construct('tcp://0.0.0.0:8...', Object(React\EventLoop\StreamSelectLoop), Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/infs3202project/websocket/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(59): React\Socket\Server->__construct('0.0.0.0:8080', Object(React\EventLoop\StreamSelectLoop))
+#2 /Applications/XAMPP/xamppfiles/htdocs/infs3202project/websocket/ChatServer.php(91): Ratchet\Server\IoServer::factory(Object(Ratchet\Http\HttpServer), 8080)
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/infs3202project/websocket/vendor/react/socket/src/TcpServer.php on line 164
